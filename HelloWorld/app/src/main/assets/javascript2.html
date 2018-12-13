@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>22222222</title>
+
+		<script>
+			function callAndroid() {
+				<!--test.hello(js调用了android中hello方法);-->
+				 /*约定的url协议为：js://webview?arg1=111&arg2=222*/
+            	document.location = "js://webview?arg1=111&arg2=222";
+			}
+
+			function clickAndroid(result) {
+				alert("result is " + result);
+			}
+
+			function clickprompt(){
+				var result=prompt("js://webview?arg1=111&arg2=222");
+				alert("demo " + result);
+				<!--alert("132123123");-->
+			}
+		</script>
+	</head>
+
+	<body>
+		<button type="button" id="button1" onclick="callAndroid()" style="height:100px; width:100px;"/>
+		<button type="button" id="button2" onclick="clickprompt()" style="height:100px; width:100px;"/>
+	</body>
+
+</html>

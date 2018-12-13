@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_index"
+            android:title="首页"/>
+        <item
+            android:id="@+id/nav_blog"
+            android:title="博客"/>
+        <item
+            android:id="@+id/nav_project"
+            android:title="项目"/>
+        <item
+            android:id="@+id/nav_answerAndQuestion"
+            android:title="问答"/>
+        <item
+            android:id="@+id/nav_announcement"
+            android:title="公告"/>W
+        <item
+            android:id="@+id/nav_myAssessment"
+            android:title="我的测评"/>
+        <item
+            android:id="@+id/nav_buildingDreamSpace"
+            android:title="筑梦空间"/>
+    </group>
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.helloworld.MyTitle.MyTitleActivity">
+
+    <com.example.administrator.helloworld.MyTitle.MyTitle
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:titleName="sdfsdfsdf"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="123123123123123"/>
+</LinearLayout>
